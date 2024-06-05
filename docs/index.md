@@ -2,8 +2,16 @@
 
 ## Table of Contents
 
-
 [Startseite](index.md)
+
+DevOPS
+
+  - [DevOps Bible](devops_bible.md)
+  - [Docker](docker.md)
+  - [Ansible](ansible.md)
+  - [Kubernetes](k8s.md)
+  - [Terraform](tf.md)
+  - [Linux](linux.md)
 
 Aufgaben
 
