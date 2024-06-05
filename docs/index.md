@@ -1,68 +1,22 @@
 # Homepage
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Table of Contents
 
-## Code Annotation Examples
 
-### Codeblocks
+[Startseite](index.md)
 
-Some `code` goes here.
+Aufgaben
 
-### Plain codeblock
+  - [Lehrlingsaufgaben für den ESXi-Cluster](vmware_aufgaben.md)
+  - [Arbeitsanweisung Aufbau Nested Cluster](vmware_nested_cluster.md)
+  - [Arbeitsanweisung Physical 3-Node Cluster Setup](vmware_physical_cluster.md)
 
-A plain codeblock:
+Ressourcen
 
-```
-Some code here
-def myfunction()
-// some comment
-```
+  - [Link Liste](vmware_linklist.md)
+  - [Videos](vmware_videos.md)
 
-#### Code for a specific language
+Other
 
-Some more code with the `py` at the start:
-
-``` py
-import tensorflow as tf
-def whatever()
-```
-
-#### With a title
-
-``` py title="bubble_sort.py"
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j + 1]:
-                items[j], items[j + 1] = items[j + 1], items[j]
-```
-
-#### With line numbers
-
-``` py linenums="1"
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j + 1]:
-                items[j], items[j + 1] = items[j + 1], items[j]
-```
-
-#### Highlighting lines
-
-``` py hl_lines="2 3"
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j + 1]:
-                items[j], items[j + 1] = items[j + 1], items[j]
-```
-
-## Icons and Emojs
-
-:smile: 
-
-:fontawesome-regular-face-laugh-wink:
-
-:fontawesome-brands-twitter:{ .twitter }
-
-:octicons-heart-fill-24:{ .heart }
+  - [Mkdocs](mkdocs.md)
+  - [Git](git.md)

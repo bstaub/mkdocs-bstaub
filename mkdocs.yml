@@ -1,4 +1,25 @@
 site_name: DevOps Guide Bruno Staub
+
+nav:
+  - Startseite: index.md
+  - DevOPS:
+    - DevOps Bible: devops_bible.md
+    - Docker: docker.md
+    - Ansible: ansible.md
+    - Kubernetes: k8s.md
+    - Terraform: tf.md
+    - Linux: linux.md
+  - Aufgaben:
+    - Lehrlingsaufgaben für den ESXi-Cluster: vmware_aufgaben.md
+    - Arbeitsanweisung Aufbau Nested Cluster: vmware_nested_cluster.md
+    - Arbeitsanweisung Physical 3-Node Cluster Setup: vmware_physical_cluster.md
+  - Ressourcen:
+    - Link Liste: vmware_linklist.md
+    - Videos: vmware_videos.md
+  - Other:
+    - Mkdocs: mkdocs.md
+    - Git: git.md
+
 theme:
   name: material
   features:
@@ -30,11 +51,11 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://git-it.campus.intern/vsphereadmins/ausbildungsblock1
+      link: https://github.com/bstaub/mkdocs-bstaub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/bruno-staub/
     #- icon: fontawesome/brands/twitter
-    #  link: https://twitter.com/TheJamesWillett
-    #- icon: fontawesome/brands/linkedin
-    #  link: https://www.linkedin.com/in/willettjames/
+    #  link: https://twitter.com/TheJamesWillett      
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -53,5 +74,8 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji 
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+extra_css:
+  - stylesheets/extra.css
+
 copyright: |
-  &copy; 2024 <a href="https://git-it-campus.intern"  target="_blank" rel="noopener">git-it.campus.intern</a>
+  &copy; 2024 <a href="https://github.com/bstaub/mkdocs-bstaub"  target="_blank" rel="noopener">github.com/bstaub/mkdocs-bstaub</a>
